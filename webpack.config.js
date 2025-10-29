@@ -15,7 +15,7 @@ module.exports = (env, argv) => {
   
   // Production (Vercel): Use the root-relative path
   // Assumes the deployment URL for this MFE is poc-webpack-repo3.vercel.app/
-  const prodPath = '/'; 
+  const prodPath = '/credit-card-mfe/';
 
   const publicPath = isProduction ? prodPath : devPath;
   
